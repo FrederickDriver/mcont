@@ -10,8 +10,7 @@ services:
       dockerfile: DockerFile.dev
       context: ./nginx
       ports:
-        -'3050:80'
-    image: 'nginx:latest'
+        - '3050:80'
   api:
     build:
       dockerfile: DockerFile.dev
